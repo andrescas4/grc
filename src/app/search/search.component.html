@@ -1,0 +1,11 @@
+<div class="searchBox" [hidden]="hide">
+  <form (ngSubmit)="onSubmit(searchForm)" #searchForm="ngForm" class="searchForm">
+    <div class="clearfix box-typeShow">
+      <label for="" *ngFor="let typeShow of typeShows">
+        <input type="radio" [ngModel]="selectedTypeShow" name="typeShow" [value]="typeShow" >
+        {{typeShow}}
+      </label>
+    </div>
+    <input type="text" [ngModel]="search" name="search">
+  </form>
+</div>

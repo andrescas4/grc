@@ -1,0 +1,8 @@
+<a [routerLink]="['/series', show.id]" class="showBox" [ngStyle]="{'background-color':show.color, 'width':show.widthSize}">
+  <h1>{{show.original_name}} </h1>
+  <div class="basicInfo">
+    <span>Fecha de Lanzamiento: {{show.release_date}}</span>
+    <span>Popularity: {{show.popularity}}</span>
+    <span>User Score: {{show.vote_average}}</span>
+  </div>
+</a>

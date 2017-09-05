@@ -1,0 +1,42 @@
+.boxWebsite{
+    margin-bottom: 20px;
+    background-color:#000;
+    color:#fff;
+    padding:10px;
+    display:block;
+    border-radius: 3px ;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+}
+.boxWebsite:hover{
+    background-color:#737373
+}
+.boxInfoCont h2{
+    font-weight: 900;
+    font-size: 1.2em;
+    margin-bottom:8px;
+}
+.boxInfoCont p{
+    font-size: 1em;
+    margin-bottom: 10px;
+    line-height:20px;
+}
+.boxRight{
+    border-top:solid 1px #ccc;
+    padding-top:10px;
+}
+.boxRight span{
+    margin-bottom: 8px;
+    display: block;
+}
+.boxGeneros{
+    border-top:solid 1px #ccc;
+    padding-top: 8px;
+}
+.boxGeneros h3{
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.boxGeneros li{
+    margin-bottom: 4px;
+}

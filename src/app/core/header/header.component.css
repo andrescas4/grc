@@ -1,0 +1,33 @@
+header{
+    background-color:rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255, 0.2);
+    padding:8px;
+    overflow:hidden;
+    height: 100%;
+}
+header .logo{
+    font-weight:300;
+    float:left;
+    color:#52e983;
+    font-size:1.3em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000;
+    -webkit-text-shadow:2px 2px 4px #000;
+    -moz-text-shadow:2px 2px 4px #000;
+}
+header .logo span:last-child{
+    font-weight:900;
+    display: block;
+    font-size:2em;
+}
+nav{
+    float:right;
+    padding: 20px 15px 0 0;
+}
+nav a{
+    color:#fff;
+    margin:0 4px;
+}
+nav a.active{
+    color:#52e983;
+}

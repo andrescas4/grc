@@ -1,0 +1,23 @@
+<div class="boxShowDetail">
+  <h1>{{infoShow?.title}}</h1>
+  <div class="boxVideo">Video
+    <app-youtube-player [video]="video"></app-youtube-player>
+  </div>
+  <div class="boxInfoCont">
+    <a href="{{infoShow?.homepage}}" target="_blank" class="boxWebsite">Visit web site</a>
+    <div class="boxLeft">
+      <h2>Description:</h2>
+      <p>{{infoShow?.overview}}</p>
+    </div>
+    <div class="boxRight">
+      <span>Votes: {{infoShow?.vote_average}}</span>
+      <span>Budget: USD {{infoShow?.budget | number}}</span>
+      <div class="boxGeneros">
+        <h3>Genres:</h3>
+        <ul>
+          <li *ngFor="let g of infoShow?.genres">{{g.name}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

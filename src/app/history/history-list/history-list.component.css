@@ -1,0 +1,11 @@
+a{
+    display:block;
+    padding:8px;
+    background-color:#000;
+    color:#fff;
+    margin-bottom: 1px;
+}
+a:hover{
+    background-color:#ccc;
+    color:#000;
+}

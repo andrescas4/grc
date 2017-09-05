@@ -1,0 +1,26 @@
+.showBox{
+    display:block;
+}
+.showBox h1{
+    color:#fff;
+    font-weight: 900;
+    font-size:3em;
+    border-bottom:solid 1px #fff;
+    padding:20px 10px;
+}
+.basicInfo{
+    padding:10px;
+    color:#fff;
+    font-weight:300;
+    font-size: .85em;
+}
+.basicInfo span{
+    display: inline-block;
+    margin:0 10px;
+}
+.basicInfo span:first-child{
+    margin-left:0;
+}
+.basicInfo span:last-child{
+    float:right;
+}

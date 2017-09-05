@@ -1,0 +1,4 @@
+<div class="boxShowDetail">
+  <p *ngIf="noHistory">No history results</p>
+  <app-history-list *ngFor="let result of history" [result]="result"></app-history-list>
+</div>

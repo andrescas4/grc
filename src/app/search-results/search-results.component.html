@@ -1,0 +1,11 @@
+
+<div *ngFor="let s of search">
+<a [routerLink]="['/movies', s.id]" class="showBox" [ngStyle]="{'background-color':s.color, 'width':s.widthSize}">
+  <h1>{{s.original_title ? s.original_title : s.original_name}} </h1>
+  <div class="basicInfo">
+    <span>Fecha de Lanzamiento: {{s.release_date}}</span>
+    <span>Popularity: {{s.popularity}}</span>
+    <span>User Score: {{s.vote_average}}</span>
+  </div>
+</a>
+</div>
